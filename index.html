@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME BUILDER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Templates</li>
+            <li>Custome Resume</li>
+        </ul>
+    </div> -->
+
+    <div class="container">
+        <h1>Resume Builder</h1>
+        <form class="resumeForm">
+            <label for="name">Full Name:</label>
+            <input type="text" class="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" class="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="number" class="phone" required>
+
+            <label for="object">Object:</label>
+            <textarea class="object" rows="4" required></textarea>
+
+            <label for="about">About:</label>
+            <input class="contact" type="number" placeholder="Contact" required></input>
+            <input class="status" type="text" placeholder="Marital Status" required></input>
+            <input class="DOB" type="date" placeholder="Date of Birth" required></input>
+            <input class="address" type="text" placeholder="Address" required></input>
+            <input class="religion" type="text" placeholder="religion(optional)"></input>
+            <input class="CNIC" type="number"  placeholder="CNIC" required></input>
+
+            <label for="education">Education:</label>
+            <input class="matric" type="text" placeholder="Matriculation" required></input>
+            <input class="inter" type="text" placeholder="Inter(optional)"></input>
+            <input class="graduate" type="text" placeholder="Graduation(optional)"></input>
+            <input class="another" type="text" placeholder="Another Degree(optional)"></input>
+
+            <label for="academicProject">ACADEMIC PROJECTS:</label>
+            <textarea class="project" rows="6" type="text" required></textarea>
+            <label for="experience">Work Experience:</label>
+            <textarea class="experience" rows="5" required></textarea>
+
+            <label for="skills">Skills:</label>
+            <textarea class="skills" rows="3" placeholder="after type one skills press Enter" required></textarea>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <div class="resume" style="display: none;"></div>
+    </div>
+
+    <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
