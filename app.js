@@ -77,12 +77,14 @@ function generateResume() {
     downloadBtn.textContent = 'Download Resume'
     downloadBtn.onclick = downloadResume
     resumeDiv.appendChild(downloadBtn)
+    
 }
 
 
 
 downloadResume = () => {
     const resumeElement = document.querySelector('.resume')
+
     
 
     html2pdf()

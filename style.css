@@ -12,7 +12,7 @@
     background-color: .45a049;
     padding: 5px;
 } */
-
+/* 
 
 body {
     font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
-}
+} */
 
 .container h1{
     text-transform: uppercase;
@@ -74,4 +74,33 @@ button:hover {
     padding: 20px;
     background-color: #fff;
     
+}
+@media only screen and (max-width: 300px) {
+    /* body{
+        background-color: red;
+    } */
+    .container{
+        width: 150px;
+        font-size: 0.5rem
+    
+    
+    
+    }
+    input{
+        width: 140px;
+        
+}
+    label{
+        width: 140px;
+        font-size: 0.5rem;
+}
+    textarea{
+        width: 140px;
+        height: 30px;
+    }
+    button{
+        width: 70px;
+        padding: 5px 8px;
+        font-size: 6px;
+    }
 }
